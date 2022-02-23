@@ -61,6 +61,7 @@ fun tribe(liz:String,bakiiga:String ):String{
 fun five(){
  var peep= product(400,30)
   var product= 400*30
+
     println(peep)
 }
 fun product(m:Int,n:Int):Int{
