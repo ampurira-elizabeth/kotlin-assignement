@@ -8,16 +8,13 @@ fun main(){
 three()
     four()
     five()
+    six()
+    seven()
 }
 fun sum(hello:String,liz:String):String{
     var sum =("fact"+"liz")
     return sum
-
 }
-
-
-
-
 fun one(){
    var x= remainder(90,19)
     println(x)
@@ -67,4 +64,22 @@ fun five(){
 fun product(m:Int,n:Int):Int{
     var product=m*n
     return product
+}
+fun six(){
+   var me = difference(300,255)
+    var difference =(300-255)
+    println(me)
+}
+fun difference(s:Int,f:Int):Int{
+    var difference = s-f
+    return difference
+}
+fun seven (){
+    var lee = division(10000,50)
+    var divide =10000/50
+    println(lee)
+}
+fun division(g:Int,h:Int):Int{
+    var division =g/h
+   return division
 }
